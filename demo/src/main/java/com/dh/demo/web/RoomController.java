@@ -14,6 +14,7 @@ import java.util.List;
  * Created by ALVARO on 10/06/2017.
  */
 @RestController
+@RequestMapping("/room")
 public class RoomController {
     @Autowired
     private RoomService roomService;
